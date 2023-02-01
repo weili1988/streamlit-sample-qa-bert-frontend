@@ -20,16 +20,19 @@ Let’s get started!
 - sudo ./install.sh
 - sudo git lfs pull
 
-### docker build
+
+### [optional] docker build
 sudo docker build -t bertqa:app .
 
-### docker image list
+### [optional] docker image list
 sudo docker image ls
 
-### docker image push to hub
+### [optional] docker image push to hub
 sudo docker tag bertqa:app weili1988/bertqa:app
 
 ### docker image pull/run from hub
-sudo docker container run -p 8501:8501 -d weili1988/bertqa:app
+image has been built and uploaded, you can use directly
+#### sudo docker container run -p 8501:8501 -d weili1988/bertqa:app
+
 
 ### go to web browser with address: http://localhost:8501/
